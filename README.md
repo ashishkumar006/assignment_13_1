@@ -1,13 +1,4 @@
----
-title: SmolLM2-135M Shakespeare Generator
-emoji: 🎭
-colorFrom: blue
-colorTo: purple
-sdk: gradio
-sdk_version: 4.44.0
-app_file: app.py
-pinned: false
----
+
 
 # SmolLM2-135M Shakespeare Generator
 
@@ -332,3 +323,4 @@ requirements.txt     # Python dependencies
 ## Contact
 
 For questions or issues, please refer to the GitHub repository or HuggingFace Space discussions.
+
