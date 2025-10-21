@@ -1,0 +1,76 @@
+SmolLM2-135M Training Logs
+============================
+
+Configuration:
+- Model: SmolLM2-135M (134,515,008 parameters)
+- Dataset: Shakespeare corpus (1,115,394 characters)
+- Tokenizer: GPT2TokenizerFast (vocab=49,152)
+- Batch Size: 16, Sequence Length: 256
+- Learning Rate: 3e-4 with warmup
+- Precision: bfloat16 mixed precision
+- Total Steps: 5,050
+
+Training Progress:
+------------------
+
+Step 500 (10%):
+  Train Loss: 4.130
+  Learning Rate: 0.000299
+  Time: 14:09
+
+Step 1000 (20%):
+  Train Loss: 1.520
+  Learning Rate: 0.000292
+  Time: 30:08
+
+Step 1500 (30%):
+  Train Loss: 0.560
+  Learning Rate: 0.000266
+  Time: 45:30
+
+Step 2000 (40%):
+  Train Loss: 0.319
+  Learning Rate: 0.000227
+  Time: 1:01:27
+
+Step 2500 (50%):
+  Train Loss: 0.240
+  Learning Rate: 0.000178
+  Time: 1:17:40
+
+Step 3000 (60%):
+  Train Loss: 0.181
+  Learning Rate: 0.000126
+  Time: 1:34:45
+
+Step 3500 (70%):
+  Train Loss: 0.155
+  Learning Rate: 0.000077
+  Time: 1:52:21
+
+Step 4000 (80%):
+  Train Loss: 0.117
+  Learning Rate: 0.000037
+  Time: 2:08:33
+
+Step 4500 (90%):
+  Train Loss: 0.093
+  Learning Rate: 0.000030
+  Time: 2:24:09
+
+Step 5000 (100%):
+  Train Loss: 0.114
+  Train Loss (epoch): 1.100
+  Validation Loss: 8.450
+  Validation Perplexity: 7,030
+  Learning Rate: 0.000030
+  Total Time: 3:05:14
+
+Final Results:
+--------------
+Total Training Time: 3 hours 5 minutes
+Average Time per Step: 2.22 seconds
+Final Training Loss: 0.114
+Final Validation Loss: 8.450
+Final Validation Perplexity: 7,030
+Checkpoints Saved: last.ckpt (step 5000), continued-step=50.ckpt (step 5050)
